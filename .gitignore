@@ -7,3 +7,4 @@ inflation-explorer/.build
 inflation-explorer/package-lock.json
 inflation-explorer/node_modules
 .DS_Store
+inflation-explorer/.DS_Store
