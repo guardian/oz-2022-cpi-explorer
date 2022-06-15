@@ -1,0 +1,50 @@
+<div class="interactive-wrapper-outer inflation">
+    <div id="outer-wrapper" class="showcase">
+			<div class="row">
+
+			<div class='figureTitle' id="chartTitle">Inflation explorer: showing the change in price for various goods and services</div>
+			<div class='subTitle' id="subTitle">Hover or tap on lines to show the item names, or use the dropdowns to highlight different items or groups, change capital cities, or switch between the price index and yearly % change in the price. The 'all groups CPI' line shows the change over time for all goods and services combined - this is the so-called 'basket' of goods and services</div>
+			<div class='notes' id='chartKey'>
+				<div  class="controlBlock">
+				Location: <select id="citySelector"></select>
+				</div>
+				<div  class="controlBlock">
+				Highlight: <select id="categorySelector"></select>
+				</div>
+				<div  class="controlBlock">
+				Data type: <select id="dataSelector"></select>
+				</div>
+				<div  class="controlBlock">
+					<input type="checkbox" id="zoomed" name="zoomed" value="zoom" checked>
+					<label for="zoomed"> zoomed in</label>
+				</div>
+				<div class="controlBlock">
+					<input type="checkbox" id="categoryColor" name="categoryColor" value="categoryColor">
+					<label for="categoryColor"> category colours</label>
+				</div>
+				<div id="mobKey">
+
+				</div>
+			</div>
+			
+			</div>
+			<div class="row borderBottom chartSans" id="graphicContainer">
+					<div id="tooltipContainer">
+						<div class="tooltipInner">
+							<div id="tooltipHeading"></div>
+							<div><span>Quarter</span>: <span id="tooltipDate"></span></div>
+							<div><span id="valueType"></span>: <span id="value"></span></div>
+						</div>	
+					</div>	
+					<div id="loadingContainer">Loading...</div>
+			</div>
+			<div class='footer offset'>
+				<div id="footerAnnotations">
+
+				</div>	
+				
+				<span id="footnote"></span> Guardian graphic <span id="sourceText"> | Data source: ABS</span>
+			</div>	
+			
+	</div>
+</div>
