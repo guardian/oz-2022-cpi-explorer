@@ -19,9 +19,6 @@ root {
     background-color: #FFF;
 }
 
-html {
-    font-size: 100%;
-}
 // uncomment to test
 // .gv-wrapper {
 //     height: 400px;
@@ -31,10 +28,11 @@ html {
 //     border-bottom: 1px solid #dcdcdc;
 // }
 
-
 /*----- App fixes -----*/
 .ios, .android {
+
     .element--immersive {
+        font-size: 100%;
         @include mq($until: tablet) {
             width: 100vw !important;
             position: relative;
