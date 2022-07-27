@@ -1,6 +1,6 @@
 import * as d3 from "d3"
 import { explorer } from "shared/js/explorer";
-
+console.log("V1.2")
 var city = 'Australia'
 var dataSelected = 'index'
 var currentResults
