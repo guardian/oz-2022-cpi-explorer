@@ -6,7 +6,7 @@ since_date = "2010-01-01"
 #%%
 # Components by index
 
-df = pd.read_csv('cpi.csv')
+df = pd.read_csv('cpi-index.csv')
 
 df[['series1','category','city']] = df['series'].str.split(" ; ", expand=True)
 cols = list(df.columns)
