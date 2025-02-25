@@ -298,14 +298,14 @@ export function explorer(data, citySelected, dataSelected, highlight, zoomed, ca
 	if (zoomed == true) {
 		if (dataSelected == "pct_year") {
 			max = 40
-			min = -40
+			min = -15
 			// max = d3.quantile(allValues, 0.99)
 			// min = d3.quantile(allValues, 0.01)
 			console.log(max, min)
 		}
 
 		else if (dataSelected == "index") {
-			max = 200
+			max = 250
 			min = 40
 			// max = d3.quantile(allValues, 0.99) + 5
 			// min = d3.quantile(allValues, 0.01) - 5

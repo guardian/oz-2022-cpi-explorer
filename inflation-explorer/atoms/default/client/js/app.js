@@ -4,10 +4,10 @@ console.log("V1.2")
 var city = 'Australia'
 var dataSelected = 'index'
 var currentResults
-var highlight = ['Vegetables']
+var highlight = ['Gas and other household fuels']
 var zoomed = true
 var colors = false
-var highlightCat = 'Vegetables'
+var highlightCat = 'Gas and other household fuels'
 Promise.all([
 	d3.csv(`<%= path %>/${city}-${dataSelected}.csv`)
 	// d3.json(`https://interactive.guim.co.uk/2022/02/river-heights/${selected}`)
@@ -141,7 +141,7 @@ categories.forEach(function (d) {
 })
 
 let element = document.getElementById('categorySelector');
-element.value = 'Vegetables';
+element.value = 'Gas and other household fuels';
 
 var dataSelector = d3.select(".inflation #dataSelector")
 
