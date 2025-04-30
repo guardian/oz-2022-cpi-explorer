@@ -298,7 +298,7 @@ export function explorer(data, citySelected, dataSelected, highlight, zoomed, ca
 	if (zoomed == true) {
 		if (dataSelected == "pct_year") {
 			max = 40
-			min = -15
+			min = -30
 			// max = d3.quantile(allValues, 0.99)
 			// min = d3.quantile(allValues, 0.01)
 			console.log(max, min)
